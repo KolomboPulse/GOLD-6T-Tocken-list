@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
+    strategy: test 
       matrix:
  update-node-versions
         node: [ '12', '14', '16' ]
